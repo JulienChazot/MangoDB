@@ -55,7 +55,7 @@ C'est un type Point, car il fournit des coordonnées sous forme de long lat, par
 
 Trouvez "Hell's kitchen" au sein de la collection "neighborhoods" et retournez le nom du quartier, sa superficie et sa population. Quelle est la superficie totale de ce quartier ?
 
-db.neighborhoods.findOne({ "name": "Hell's Kitchen" }); -> Renvoi null ??
+db.neighborhoods.findOne({ "name": "Hell'S Kitchen" }); -> Renvoi null ??
 
 db.neighborhoods.createIndex({ geometry: "2dsphere" })
 
