@@ -8,7 +8,10 @@ Créez une appli web :
 
     Utilisez le pattern MVC pour l'archi de l'appli
 
-    Exokuquez le principe de middleware express et utilisez en dans votre appli
+    Expliquez le principe de middleware express et utilisez en dans votre appli
+
+    Middleware Express est une infra web middleware + routage qui est une succession d'appels de fonctions middleware
+    Les fonctions peuvent acceder à req et res (requete resultat)
 
     Connectez vous à une BDD MangoDB
 
